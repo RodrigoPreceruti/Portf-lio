@@ -131,7 +131,7 @@ footer div {
     min-height: 650px;
 }
 
-.first-section>div {
+.first-section > div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
