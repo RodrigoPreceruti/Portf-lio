@@ -33,15 +33,6 @@ header {
     min-height: 50px;
 }
 
-button,
-.link-action {
-    padding: .6rem;
-    font-size: .9rem;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: .4s;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -102,12 +93,15 @@ footer div {
 .nav-links a:hover {
     color: var(--dark4);
     transition: .4s;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-.nav-buttons {
-    display: flex;
-    gap: 1rem;
+.link-action {
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
 }
 
 .btn-action {
